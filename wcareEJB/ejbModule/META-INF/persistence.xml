@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="wcareEJB">
+		<class>com.gan.wcare.jpa.entity.WcUsers</class>
+		<class>com.gan.wcare.jpa.entity.WcCustomer</class>
+		<class>com.gan.wcare.jpa.entity.WcBusinessManager</class>
+		<class>com.gan.wcare.jpa.entity.WcWealthManager</class>
+				<class>com.gan.wcare.jpa.entity.WcGoal</class>
+		<class>com.gan.wcare.jpa.entity.WcInvestment</class>
+		<properties>
+			<property name="javax.persistence.jdbc.driver" value="com.ibm.db2.jcc.DB2Driver" />
+			<property name="javax.persistence.jdbc.url" value="jdbc:db2://dashdb-mix.net:50000/BLUDB" />
+			<property name="javax.persistence.jdbc.user" value="txs53" />
+			<property name="javax.persistence.jdbc.password" value="qw" />
+		</properties>
+	</persistence-unit>
+</persistence>

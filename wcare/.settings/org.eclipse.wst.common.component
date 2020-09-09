@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="wcare">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="wcareEJB.jar" deploy-path="/" handle="module:/resource/wcareEJB/wcareEJB">
+            <dependent-object>Module_1575304123019</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="wcareWeb.war" deploy-path="/" handle="module:/resource/wcareWeb/wcareWeb">
+            <dependent-object>Module_1575304123025</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="com.fasterxml.jackson.annotations.jar" deploy-path="lib" handle="module:/classpath/lib/lib/com.fasterxml.jackson.annotations.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="db2jcc4-10.1.jar" deploy-path="lib" handle="module:/classpath/lib/lib/db2jcc4-10.1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
